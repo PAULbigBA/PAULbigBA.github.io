@@ -5,10 +5,9 @@
     --light-text: #212529;
     --light-card: #ffffff;
     --light-nav: #ffffff;
-    --light-primary: #4e54c8;
-    --light-primary2: #47beff;
+    --light-primary: #333333;
     --light-secondary: #6c757d;
-    --light-accent: #ff6b6b;
+    --light-accent: #6c757d;
     --light-shadow: rgba(0, 0, 0, 0.1);
     --light-border: #e9ecef;
     --light-hero-bg: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -18,12 +17,11 @@
     --dark-text: #e0e0e0;
     --dark-card: #1e1e1e;
     --dark-nav: #1a1a1a;
-    --dark-primary: #6a7de0;
-    --dark-secondary: #a0aec0;
-    --dark-accent: #ff8e8e;
+    --dark-primary: #cccccc;
+    --dark-secondary: #a0a0a0;
     --dark-shadow: rgba(0, 0, 0, 0.3);
-    --dark-border: #2d3748;
-    --dark-hero-bg: linear-gradient(135deg, #0f0c29 0%, #302b63 100%);
+    --dark-border: #2d2d2d;
+    --dark-hero-bg: linear-gradient(135deg, #0f0f0f 0%, #2a2a2a 100%);
     
     /* Common variables */
     --transition: all 0.3s ease;
@@ -62,7 +60,7 @@ body.dark-theme {
 }
 
 #theme-btn {
-    background: var(--light-primary2);
+    background: var(--light-primary);
     color: white;
     border: none;
     width: 50px;
