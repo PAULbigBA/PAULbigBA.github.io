@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhi Pi's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <!-- Theme toggle button -->
+    <div class="theme-toggle">
+        <button id="theme-btn">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Top navigation -->
+    <nav class="topbar">
+        <!-- <div class="logo">Zhi Pi.dev</div> -->
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-content fadeIn">
+            <h1>Hi, I'm <span class="highlight">Zhi Pi</span></h1>
+            <h2>Software Developer</h2>
+            <p>Creating engaging user experiences with clean, efficient code</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="circle"></div>
+            <div class="pattern"></div>
+            <div class="code-snippet">
+                <pre><code>function Developer() {
+  this.name = "Zhi Pi";
+  this.skills = ["React", "TypeScript", "Python"];
+  this.passion = "Building amazing web experiences";
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h3>React</h3>
+                <p>Building responsive websites and applications using React and React native with a focus on performance and accessibility.</p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Embracing AI</h3>
+                <p>Using AI to accelerate development, improve code quality, and enhance problem-solving capabilities.</p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h3>Full-Stack Knowledge</h3>
+                <p>Understanding both frontend and backend to create cohesive, robust applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image" style="background-color: #4e54c8;">
+                    <div class="project-tech">React | Redux | Firebase</div>
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A comprehensive dashboard for online stores with real-time analytics and inventory management.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Detail</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image" style="background-color: #ff6b6b;">
+                    <div class="project-tech">Next.js | GraphQL | MongoDB</div>
+                </div>
+                <div class="project-content">
+                    <h3>Social Media Platform</h3>
+                    <p>A full-featured social platform with real-time updates, media sharing, and user interactions.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Detail</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image" style="background-color: #1dd1a1;">
+                    <div class="project-tech">TypeScript | Node.js | AWS</div>
+                </div>
+                <div class="project-content">
+                    <h3>AI-Powered Analytics</h3>
+                    <p>Business intelligence tool using machine learning to provide actionable insights from data.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Detail</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>I'm currently open to full-time opportunities and exciting projects. Let's collaborate and create something amazing!</p>
+                <div class="contact-methods">
+                    <a href="mailto:paulbigba@outlook.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        paulbigba@outlook.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/zhi-pi-915309231" class="contact-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/PAULbigBA" class="contact-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- <div class="footer-logo">Zhi Pi.dev</div> -->
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/zhi-pi-915309231" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/PAULbigBA" target="_blank"><i class="fab fa-github" ></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a> -->
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Zhi Pi's Portfolio. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeBtn = document.getElementById('theme-btn');
+        const body = document.body;
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            body.classList.add(savedTheme);
+        }
+        
+        themeBtn.addEventListener('click', () => {
+            if (body.classList.contains('light-theme')) {
+                body.classList.replace('light-theme', 'dark-theme');
+                localStorage.setItem('theme', 'dark-theme');
+            } else {
+                body.classList.replace('dark-theme', 'light-theme');
+                localStorage.setItem('theme', 'light-theme');
+            }
+        });
+        
+        // Animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        
+        document.querySelectorAll('.fadeIn, .section-title, .skill-card, .project-card').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
